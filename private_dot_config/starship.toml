@@ -1,0 +1,81 @@
+add_newline = false
+
+
+[golang]
+symbol = " "
+
+[git_branch]
+symbol = " "
+style = "bold orange"
+format = '[\($symbol$branch\)]($style) '
+
+truncation_symbol = ""
+
+[git_commit]
+commit_hash_length = 8
+tag_symbol = "🔖 "
+
+[git_status]
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+
+[docker_context]
+symbol = "🐳 "
+detect_folders = [".docker"]
+
+[directory]
+read_only = " 🔒"
+
+[php]
+symbol = "🐘 "
+
+[aws]
+symbol = "☁️ "
+
+[hg_branch]
+disabled = true
+[time]
+disabled = true
+[dart]
+disabled = true
+[dotnet]
+disabled = true
+[elixir]
+disabled = true
+[elm]
+disabled = true
+[erlang]
+disabled = true
+[helm]
+disabled = true
+[java]
+disabled = true
+[julia]
+disabled = true
+[kotlin]
+disabled = true
+[nim]
+disabled = true
+[ocaml]
+disabled = true
+[purescript]
+disabled = true
+[swift]
+disabled = true
+[zig]
+disabled = true
+[memory_usage]
+disabled = true
+[gcloud]
+disabled = true
+[openstack]
+disabled = true
+[crystal]
+disabled = true
+[lua]
+disabled = true
+[jobs]
+disabled = true
+[battery]
+disabled = true
