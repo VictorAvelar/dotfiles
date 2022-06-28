@@ -1,6 +1,5 @@
 add_newline = false
 
-
 [golang]
 symbol = " "
 
@@ -31,8 +30,7 @@ read_only = " 🔒"
 symbol = "🐘 "
 
 [aws]
-symbol = "☁️ "
-
+disabled = true
 [hg_branch]
 disabled = true
 [time]
