@@ -77,5 +77,7 @@ disabled = true
 disabled = true
 [battery]
 disabled = true
-[packages]
+[package]
 disabled = true
+[terraform]
+disables = true
