@@ -82,4 +82,4 @@ disabled = true
 [terraform]
 disabled = true
 [nodejs]
-disabed = true
+disabled = true
