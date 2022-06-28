@@ -1,0 +1,17 @@
+# PHP vendor
+vendor/
+
+# Node modules
+node_modules/
+
+# IntelliJ mappings and files
+.idea/
+
+# VSCode config
+.vscode/
+
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
